@@ -40,6 +40,16 @@ This project was developed as part of my **Summer Internship - Project 01**.
 
 ---
 
+## Docker
+
+Build the image:
+
+docker build -t portfolio-website .
+
+Run the container:
+
+docker run -d -p 80:80 portfolio-website
+
 ## 📂 Project Structure
 
 ```text
